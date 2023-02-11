@@ -16,6 +16,7 @@ function HomeScreen() {
                 {categories.map((item => (
                     <CategoryCard
                         key={item.id}
+                        id={item.id}
                         name={item.name}
                         src={item.src}
                     />

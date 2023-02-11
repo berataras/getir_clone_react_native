@@ -1,14 +1,17 @@
 import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
 import HomeScreen from "../screens/HomeScreen";
-import {Image} from "react-native";
+import CategoryScreen from "../screens/CategoryScreen";
+import {Image, Text} from "react-native";
 
-const Stack = createStackNavigator();
+import {HomeStackParamList} from "../types/stack";
+
+const Stack = createStackNavigator<HomeStackParamList>();
 function HomeNavigator() {
     return (
-        <Stack.Navigator>
+        <Stack.Navigator initialRouteName="Home">
             <Stack.Screen
-                name="HomeScreen"
+                name="Home"
                 component={HomeScreen}
                 options={{
                       headerStyle: { backgroundColor: "#5C3EBC" },
@@ -20,6 +23,20 @@ function HomeNavigator() {
                           />
                       ),
                   }}
+            />
+            <Stack.Screen
+                name="Category"
+                component={CategoryScreen}
+                options={{
+                    headerBackTitleVisible: false,
+                    headerTintColor: "white",
+                    headerStyle: { backgroundColor: "#5C3EBC"},
+                    headerTitle: () => (
+                        <Text style={{fontWeight: "bold", color: "white"}}>
+                            Ürünler
+                        </Text>
+                    ),
+                }}
             />
         </Stack.Navigator>
     );

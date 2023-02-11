@@ -1,0 +1,39 @@
+
+G
+assets/data/products.ts,1/9/1943a096af0a1080360a491a1d1859db4b0c6ef1
+C
+assets/data/logo.ts,3/5/35c5ccdeeb230ec45299f1244df3ec25e36cc850
+8
+theme.ts,d/4/d48e5c671eb30d1c8fe0097e618be9de7e69a8be
+V
+&src/components/AddressHeader/styles.ts,b/d/bd801b86463b161cc12da5adfaab7c947920b388
+V
+&src/components/AddressHeader/index.tsx,5/6/56f1c8b032e4152be45437a1c29bdd5dd15d3a17
+N
+src/components/Banner/style.ts,8/3/83a8e278ba9e4396b1f1d098ad6eff4839c665b9
+O
+src/components/Banner/index.tsx,2/c/2c12ba28bc9967480b667694b0e48a1fd53d3ae7
+I
+assets/data/categories.ts,a/6/a6d1fd92ea5fc808071b0ea01ab75d450f6d94f5
+7
+App.tsx,2/f/2f3db35b9bba122792d724b9b48a0aac92ebbb79
+P
+ src/navigators/RootNavigator.tsx,1/d/1d7082d1fb3488295531393e104a9f961d7ea69e
+P
+ src/screens/HomeScreen/styles.ts,5/c/5c298e865ec07cade970f5af3eb533773b7a2ca0
+?
+babel.config.js,7/7/775bd43a34022cef87b6af825cbd551f29473f73
+P
+ src/navigators/HomeNavigator.tsx,3/c/3c51548c44b15574c1b340d04acedb70d20aa2f8
+P
+ src/screens/HomeScreen/index.tsx,7/d/7daead57e26552f66e264e942d09cfe0af151dbe
+C
+src/models/index.ts,f/9/f93644b0f37edbbc19d12bf4a7b3ac1c3163f6b0
+T
+$src/components/CategoryCard/style.ts,0/1/010136a9a2f4d031319949b3336325d1aae94282
+U
+%src/components/CategoryCard/index.tsx,4/3/434954a47fd36396be579b69ff98c9e1e4e5ebc7
+8
+app.json,6/5/65596286f14dbaba6a5081a2edaae69700cc3c3b
+<
+package.json,7/0/7030d0b2f71b999ff89a343de08c414af32fc93a

@@ -1,0 +1,22 @@
+
+Etypescript:S1441"Strings must use singlequote.(ÍáÙÉùÿÿÿÿ8‘§ÒÕİ0
+Gtypescript:S1128"$Remove this unused import of 'View'.(ÕÁçª8‘§ÒÕİ0
+Mtypescript:S1128"*Remove this unused import of 'StyleSheet'.(ÕÁçª8‘§ÒÕİ0
+@typescript:S1441"Strings must use singlequote.(ÕÁçª8‘§ÒÕİ0
+Etypescript:S1441"Strings must use singlequote.(òê„ÿÿÿÿÿ8‘§ÒÕİ0
+[typescript:S1854"9Remove this useless assignment to variable "activeIndex".(ß¦M8‘§ÒÕİ0
+^typescript:S1854"<Remove this useless assignment to variable "setActiveIndex".(ß¦M8íúíÕİ0
+?typescript:S1441"Strings must use singlequote.(º¯ºu8‘§ÒÕİ0
+@typescript:S1441	"Strings must use singlequote.(”Ï˜à8’§ÒÕİ0
+@typescript:S1441
+"Strings must use singlequote.(¥íò§8’§ÒÕİ0
+@typescript:S1441"Strings must use singlequote.(³«–ı8’§ÒÕİ0
+:typescript:S3723"Missing trailing comma.(³«–ı8’§ÒÕİ0
+Ktypescript:S6480"(JSX props should not use arrow functions(ßÚïÈ8’§ÒÕİ0
+btypescript:S3524"?Remove parentheses around the parameter of this arrow function.(ßÚïÈ8’§ÒÕİ0
+?typescript:S3498"Expected property shorthand.(òõÒ—8’§ÒÕİ0
+8typescript:S109"No magic number: 0.24.(òõÒ—8’§ÒÕİ0
+@typescript:S1441"Strings must use singlequote.(òõÒ—8’§ÒÕİ0
+=typescript:S3723"Unexpected trailing comma.(òõÒ—8’§ÒÕİ0
+=typescript:S1537"Unexpected trailing comma.(òõÒ—8’§ÒÕİ0
+:typescript:S1438 "Missing semicolon.(±Š»…ıÿÿÿÿ8’§ÒÕİ0
