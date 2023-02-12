@@ -6,4 +6,6 @@ export type HomeStackParamList = {
             name: string
         }
     };
+
+    ProductDetails: undefined
 };

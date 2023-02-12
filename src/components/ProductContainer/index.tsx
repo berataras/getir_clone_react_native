@@ -10,6 +10,10 @@ function ProductContainer() {
             {products.map((item, index) => (
                 <ProductCard
                     key={index}
+                    name={item.name}
+                    image={item.image}
+                    price={item.price}
+                    discountPrice={item.discountPrice}
                 />
             ))}
         </View>
