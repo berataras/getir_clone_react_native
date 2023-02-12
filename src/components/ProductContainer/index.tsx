@@ -3,8 +3,11 @@ import products from "../../../assets/data/products";
 import ProductCard from "../ProductCard";
 import {View} from "react-native";
 import styles from "./style";
+import {useNavigation} from "@react-navigation/native";
+import {productDetailScreenProp} from "../../types/screen";
 
 function ProductContainer() {
+    const navigation = useNavigation<productDetailScreenProp>();
     return (
         <View style={styles.wrapper}>
             {products.map((item, index) => (
@@ -14,6 +17,7 @@ function ProductContainer() {
                     image={item.image}
                     price={item.price}
                     discountPrice={item.discountPrice}
+                    onPress={() => navigation.navigate("ProductDetails", {product: item})}
                 />
             ))}
         </View>

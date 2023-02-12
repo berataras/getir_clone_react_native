@@ -7,5 +7,15 @@ export type HomeStackParamList = {
         }
     };
 
-    ProductDetails: undefined
+    ProductDetails: {
+        product: {
+            id: any,
+            name: string,
+            price: number,
+            discountPrice: number,
+            image: string,
+            images: Array<string>
+            amount: string
+        }
+    }
 };

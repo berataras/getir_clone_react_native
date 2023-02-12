@@ -2,12 +2,10 @@ import React from 'react';
 import {Text, TouchableOpacity, View, Image} from "react-native";
 import styles from "./style";
 import {Entypo} from "@expo/vector-icons";
-import {useNavigation} from "@react-navigation/native";
-import {productDetailScreenProp} from "../../types/screen";
-function ProductCard({image, price, discountPrice, name, amount}: any) {
-    const navigation = useNavigation<productDetailScreenProp>();
+
+function ProductCard({image, price, discountPrice, name, amount, onPress}: any) {
     return (
-        <TouchableOpacity style={styles.wrapper} onPress={() => navigation.navigate("ProductDetails")}>
+        <TouchableOpacity style={styles.wrapper} onPress={onPress}>
             <Image
                 style={styles.image}
                 source={{
